@@ -1,0 +1,1148 @@
+.mo2fa_pricing_head_blue{
+	background-color: #1f3668;
+    border-radius: 1em 1em 50% 50%;
+    padding: 1em 1em 2em 0em;
+    color: white;
+	margin-top: -10%;
+}
+.mo2fa_per_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2f_table_layout {
+    width: 75%;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 25px 50px 25px 50px;
+    margin: 10px;
+}
+
+.mo2f_upgrade_main_div {
+    background: ffffffad;
+    background: white;
+    width: 34.33%;
+    min-height: 600px;
+    margin: 1.5%;
+    float: left;
+    width: 25%;
+}
+.wp-core-ui select {
+    padding: 4px 24px 4px 8px;
+    margin-left: 1em;
+	font-size: 14px!important;
+}
+.mo2fa_per_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+    width: 12em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 12px 0px 11px 83px;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 93%;
+}
+.mo2fa_per_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_per_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+.mo2fa_on_per_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2fa_on_per_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+    width: 14em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 12px 2px 12px 28px;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 107%;
+}
+.mo2fa_on_per_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_on_per_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+
+
+.mo2fa_cloud_per_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2fa_cloud_per_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 11px 1px 11px 43px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  right: 110%;
+}
+.mo2fa_cloud_per_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_cloud_per_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+
+.mo2fa_fido_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2fa_fido_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+    width: 16em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 12px 2px 12px 28px;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 107%;
+}
+.mo2fa_fido_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_fido_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+
+.mo2fa_shortcode_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2fa_shortcode_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:26em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 7px 0px 8px 8px;
+	position: absolute;
+	z-index: 1;
+	top: -1.1em;
+	left: 107%;
+}
+.mo2fa_shortcode_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_shortcode_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_shortcode_ent_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+}
+.mo2fa_shortcode_ent_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:26em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 7px 0px 8px 8px;
+	position: absolute;
+	z-index: 1;
+	top: -23px;
+	right: 110%;
+}
+.mo2fa_shortcode_ent_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_shortcode_ent_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+#mo2f_upgrade_main_div:hover > #mo2fa-ribbon{
+	margin-top: 0%;
+    transition: 1s;
+}
+.mo2fa_per_year{
+	color:white;
+	font-size: small;
+}
+.mo2fa_tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+.mo2fa_tooltip .mo2fa_tooltiptext {
+    visibility: hidden;
+    line-height: 1.6;
+    width: 248px;
+    background-color: white;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+.mo2fa_tooltip:hover .mo2fa_tooltiptext {
+	visibility: visible;
+  }
+.mo2fa-ribbon span {
+    position: absolute;
+    width: 154px;
+    padding: 19px 0px 15px 68px;
+    background-color: #3498db;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    color: #fff;
+    font: 700 14px/1 Lato,sans-serif;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+}
+.mo2fa-ribbon-top-right span {
+    left: 0;
+    top: 19px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+.mo2fa-ribbon {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+}
+.mo2fa-ribbon-top-right {
+	top: 154px;
+    right: 486px;
+}
+.mo2fa-ribbon::before {
+    position: absolute;
+    content: "";
+    border: 5px solid #2980b9;
+}
+.mo2fa-ribbon-top-right::before {
+    top: -2px;
+    left: 34px;
+}
+.mo2fa-ribbon::after, .mo2fa-ribbon::before {
+    position: absolute;
+    content: "";
+    border: 5px solid #2980b9;
+}
+.mo2fa-ribbon-top-right::after {
+    bottom: 34px;
+    right: 0;
+}
+.mo2fa_pricing_head_sky{
+	background-color: #327a86;
+    border-radius: 1em 1em 50% 50%;
+    padding: 1em 1em 2em 0em;
+    color: white;
+	margin-top: -10%;
+	height:15.5em;
+}
+.wp-core-ui select{
+	padding: 4px 24px 4px 8px;
+	margin-left:1em;
+}
+.mo2fa_plan-type{
+	text-align: center;
+	color: #1f3668;
+    font-size: 28px;
+}
+.mo2fa_ul li{
+   margin-bottom: 0%;
+   width: 103.1%;
+   margin-left: -1.5em;
+
+}
+.mo2fa_pricing_feature_collection_supporter{
+	height: 32em;
+}
+.mo2fa_pricing_head_supporter{
+	height: 4em;
+	padding: 2px 1px 1px 1px;
+	margin-bottom: 1em;
+}
+i.fa-check {
+	color: black;
+	margin-left:2em;
+	margin-right: 17px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+i.fa-times {
+	color: #b6abab;
+	margin-left: 2em;
+	margin-right: 17px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.fa, .fas {
+	font-weight: 900;
+	margin-right: 21px;
+	margin-top: 1em;
+	color: #b6abab;
+
+}
+.mo2fa_pricing_feature_collection{
+	height: 31em;
+}
+.mo2fa_limit_pricing_feature_mo_2fa{
+	color: #b6abab;
+	font-weight: 500;
+}
+.mo2fa_unltimate_feature{
+	text-align: center;
+	color: #000000;
+	font-family:Open Sans;
+	letter-spacing: 0.3px;
+	padding:0.5em;
+	font-family:Open Sans;
+}
+.mo2fa_sec{
+	width: 27em;
+	border-radius: 4px;
+	box-shadow: 1px 0px 11px 0px #ccc;
+	height: 70em;
+	border: 1px solid #ccc;
+	padding-top: 2em;
+}
+.mo2fa_upgrade_my_plan_ent{
+	border: none;
+	top: 50%;
+	left: 50%;
+	color: white;
+	padding: 15px 32px;
+	width: auto;
+	min-width: 50%;
+	border-radius: 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background: #327a86;
+	font-size: 16px;
+	height: auto;
+	margin-top: 24px;
+}
+.mo2fa_upgrade_my_plan_ent:hover{
+	border: none;
+	background: #8d86f5;
+}
+.mo2fa_upgrade_my_plan {
+    border: none;
+    top: 50%;
+    left: 50%;
+    color: white;
+    padding: 15px 32px;
+    width: auto;
+    min-width: 50%;
+    border-radius: 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: #1f3668;
+    font-size: 16px;
+    height: auto;
+    margin-top: 24px;
+}
+.mo2fa_upgrade_my_plan:hover{
+	border: none;
+	background: #8d86f5;
+}
+.mo2fa_plugins{
+	width: 12%;
+}
+.mo2fa_pricing_tabs_mo{
+	width: auto; 
+	border-radius: 4px;
+	height: 85em;
+	border: 1px solid #ccc;
+	padding-top: 2em;
+}
+.mo2fa_make_my_plan_mo{
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	width: 55%;
+	border-radius: 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background: #2a80ca;
+	font-size: 16px;
+	height: auto;
+}
+.mo2fa_make_my_plan_mo:hover{
+	border: none;
+	color: white;
+	background: #8d86f5;
+}
+.mo2fa_web_sec{
+	padding:20px 0;
+}
+.mo2fa_pricing_head_mo_2fa{
+	font-size: 20px;
+	color: white;
+	line-height: 1.6;
+	margin-bottom: 3%;
+	font-family:unset;
+}
+.mo2fa_method-list-size{
+   font-size: 11px;
+   margin-bottom: -3px!important;
+   list-style: none!important;
+   margin-left: 2em;
+   font-weight: 450;
+}
+.mo2fa_method-list-mo-size-cross{
+   font-size: 11px;
+   color: #b6abab;
+   margin-bottom: -3px!important;
+   list-style: none!important;
+   margin-left: 2em;
+}
+.mo2fa_price_mo_2fa{
+	font-size: 35px;
+	font-weight: bold;
+	color: black;
+}
+.mo2fa_purchase_user_limit_mo{
+	margin-top: 22px!important;
+	margin-bottom: 0px!important;
+	color: black;
+}
+.mo2fa_purchase_otp_limit{
+	margin-top: 10px!important;
+	margin-bottom: 4px!important;
+	color: black;
+}
+.mo2fa_increase_my_limit{
+	width:40%;
+	color: black;
+	font-size: 11px;
+	background: #c9dbdb75;
+	border-radius: 3px;
+	min-height: 27px;
+	margin-left: -10px;
+	margin-right: 3px;
+}
+.mo2fa_feature{
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	font-size:18px;
+}
+.mo2fa_ul{
+	font-size: 15px;
+}
+.mo2fa_ul li{
+	font-size: 14px;
+	font-family: system-ui;
+}
+
+.mo2fa_ul li:nth-of-type(2n+1) {
+    background-color: rgba(23,61,80,.06);
+}
+.mo2fa_more_details_p,.mo2fa_more_details_p1{
+	font-size: 13px;
+	margin-bottom: -10px;
+	margin-top: 1em;
+	font-weight:bold;
+	color:#4545ff;
+	text-align: center;
+}
+.mo2fa_class{
+	background: aliceblue;
+    width: 85%;
+}
+.mo2fa_pricing{
+	padding: 16px 55px 12px 41px;
+	height: 10em;
+}
+.mo2fa_pricing_p{
+	font-size: 10px;
+	margin-bottom: -21px;
+}
+.mo2fa_dollar{
+	font-size: 46px;
+	font-weight: 600;
+	padding: 5px 5px 5px 5px;
+	margin-top: 35px;
+	color:white;
+}
+.mo2fa_country{
+	margin-top: 2px;
+}
+.mo2fa_payment_p{
+	font-size: 110%;
+}
+.mo2fa_card{
+	size: landscape;
+	width: 100px;
+	height: 27px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	opacity: 1;
+	padding-left: 8px;
+}
+.mo2fa_hr{
+	border-top: 2px solid #143af4;
+}
+.mo2fa_form_control1{
+	border-radius:5px;
+	width:70%;
+}
+.mo2fa_starting_from{
+	font-size: 10px;
+	margin-left: -24px;
+}
+.mo2fa_center{
+	text-align: center;
+}
+.mo2fa_pricing_tabs_mo_premium_lite{
+	background: ffffffad;
+	border: none!important;
+}
+.mo2fa_pricing_tabs_mo_premium{
+	background: ffffffad;
+	border: none;
+	box-shadow: 12px;
+}
+.mo2fa_pricing_tabs_mo_enterprise{
+	background: ffffffad;
+	border: none!important;
+}
+.mo2f_upgrade_super_div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.mo2fa_recommended{
+	width: 100%;
+	background: #2a80caa6;
+	color: white;
+	height: 3em;
+	margin-left: 0px;
+	margin-top: -2em;
+	font-size: 16px;
+	margin-bottom: 2em;
+	padding: 10px 1px 1px 1px;
+}
+.mo2fa_purchase_limit_mo{
+	font-size: 16px;
+}
+.mo2fa_pricing_head_h5{
+	margin :0.67em;
+}
+.mo2fa_h4{
+	font-size: 1.5em;
+	margin: 0.33em 0;
+	font-weight: 400;
+}
+.mo2fa_note_color{
+	color: red;
+}
+.mo2fa_note{
+	font-size:17px;
+}
+.mo2fa_setting_layout{
+	width: 81.5%;
+	margin-left: 8%;
+	margin-top: 1%;
+	box-shadow: 0px 2px 25px 0px #ccc;
+}
+.mo2fa_bank_transfer{
+	height: 28px;
+	width:auto;
+}
+.mo2fa_category_feature{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+.mo2fa_main_category_header{
+background: #d5d5d5!important;
+margin-top: 0.3em;
+margin-bottom: 0.3em;
+}
+.mo2fa_bg_category_main{
+	font-size: 17px;
+    border :0.5px solid #c1c1c1 ;
+    background: #c9dbdb!important
+}
+.mo2fa_description{
+    font-size: 13px!important;
+    font-weight: 400;
+}
+table.mo2fa_table_features{
+	border: 1px 1px 1px 1px;
+}
+table.mo2fa_table_features th,table.mo2fa_table_features tr{
+	text-align: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	  height:25px;
+}
+table.mo2fa_table_features,table.mo2fa_table_features th,table.mo2fa_table_features td {
+  border-left: 1px solid #c1c1c1;
+  border-right: 1px solid #c1c1c1;
+  border-collapse: collapse;
+}
+table.mo2fa_table_features tr:nth-child(odd){
+	background-color: #f6f6f6;
+}
+table.mo2fa_table_features tr:last-child
+{
+   border-bottom: 1px solid #c1c1c1;
+}
+.mo2fa_hide{
+	display: none !important
+}
+
+.mo2fa_hide1{
+	display: none;
+}
+.mo2fa_comparison{
+	font-size: 18px;
+	width: 20%;
+}
+.mo2fa_compare1{
+	min-width: 22%!important;
+	width:10%;
+}
+.mo2fa_tooltip_sms_info {
+  position: relative;
+  display: inline-block;
+}
+
+.mo2fa_tooltip_sms_info .mo2fa_sms_info {
+    visibility: hidden;
+    width: 15em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 7px 6px 8px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 107%;
+}
+.mo2fa_tooltip_sms_info .mo2fa_sms_info::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.mo2fa_tooltip_sms_info:hover .mo2fa_sms_info {
+  visibility: visible;
+}
+.mo2fa_tooltip_methodlist {
+  position: relative;
+  display: inline-block;
+}
+.mo2fa_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+  	width: 14em;
+    background-color: #000000b8;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 11px 3px 25px 97px;
+    position: absolute;
+    z-index: 1;
+    top: -9.8em;
+    left: 107%;
+}
+.mo2fa_tooltip_methodlist .mo2fa_methodlist::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.mo2fa_tooltip_methodlist:hover .mo2fa_methodlist {
+  visibility: visible;
+}
+
+.mo2fa_ent_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 11px 3px 11px 78px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -128px;
+	  right: 110%;
+}
+  .mo2fa_ent_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_rba_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_rba_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 7px 0px 8px 11px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -0.5em;
+	  left: 107%;
+  }
+  .mo2fa_rba_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_rba_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:10em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 6px 11px 17px;
+	position: absolute;
+	z-index: 1;
+	top: -17px;
+	right: 110%;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_redirect_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_redirect_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 17em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 10px 3px 10px 34px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 107%;
+  }
+  .mo2fa_redirect_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_redirect_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:20em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 1px 11px 13px;
+	position: absolute;
+	z-index: 1;
+	top: -15px;
+	right: 110%;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_role_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_role_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: auto;
+	  min-width:10em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 6px 7px 8px 17px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 107%;
+  }
+  .mo2fa_role_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_role_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_role_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_role_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:10em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 6px 7px 8px 17px;
+	position: absolute;
+	z-index: 1;
+	top: -17px;
+	right: 110%;
+  }
+  .mo2fa_ent_role_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_role_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: auto;
+	  min-width:16em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 7px 0px 8px 21px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 107%;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist .mo2fa_methodlist {
+	 visibility: hidden;
+	width: auto;
+	min-width:16em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 7px 0px 8px 21px;
+	position: absolute;
+	z-index: 1;
+	top: -23px;
+	right: 110%;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 8px 0px 8px 15px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -2.1em;
+	  left: 107%;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: 14em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 1px 11px 17px;
+	position: absolute;
+	z-index: 1;
+	top: -26px;
+	right: 110%;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_enterprise_getting_started{
+	margin-top: -1em;
+}
+.mo2fa_table-scrollbar{
+	overflow-y: scroll; 
+	overflow-x:scroll;
+	height: 50%;
+}
+.mo2fa_fa-check{
+	color: #fff!important;
+}
+@media only screen and (max-width: 600px) {
+	.mo2f_upgrade_super_div{
+		display: block;
+	}
+	.mo2f_upgrade_main_div{
+		width: 96%;
+	    margin-bottom: 6em;
+	    height: 93em;
+	}
+	.mo2fa_compare1{
+		width: 101%;
+    	margin-top: -2em;
+	}
+	.mo2fa_setting_layout{
+		margin-left: 4%;
+	}
+	.mo_2fa_card-deck{
+		display: block;
+	}
+	.mo_2fa_card{
+		width: 98%;
+	}
+	.mo2f_upgrade_toggle_lable{
+		font-size: 1em;
+		width: 12em;
+	}
+	.mo_wpns_upgrade_security_title{
+		width: 97%;
+	}
+	.mo_ns_features_only{
+		display: grid;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.mo2fa_pricing_head_blue{
+		background-color: #1f3668;
+		border-radius: 1em 1em 50% 50%;
+		padding: 1em 1em 2em 0em;
+		margin-top: -13%;	
+    }
+	.mo2fa_pricing_head_sky{
+		background-color: #327a86;
+		border-radius: 1em 1em 50% 50%;
+		padding: 1em 1em 2em 0em;
+		margin-top: -14%;
+		height:15.5em;
+	}
+	.mo2fa_pricing_tabs_mo{
+		height: 95em;
+	}
+	.mo2fa_increase_my_limit{
+		 width:6em;	
+	}
+	.mo2fa_unltimate_feature{
+		height:2em;
+	}
+	.mo2f_upgrade_main_div{
+		Width:auto;
+	}
+	.mo2fa_upgrade_my_plan {
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		width: auto;
+		min-width: 50%;
+		border-radius: 26px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+	}
+	}

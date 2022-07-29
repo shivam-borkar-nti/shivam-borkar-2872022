@@ -1,0 +1,2535 @@
+# Copyright (C) 2022 WP White Security
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP 2FA - Two-factor authentication for WordPress 2.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-2fa\n"
+"Last-Translator: WP White Security <info@wpwhitesecurity.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-29T15:24:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wp-2fa\n"
+
+#. Plugin Name of the plugin
+msgid "WP 2FA - Two-factor authentication for WordPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wp2fa.io/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easily add an additional layer of security to your WordPress login pages. Enable Two-Factor Authentication for you and all your website users with this easy to use plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP White Security"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpwhitesecurity.com/"
+msgstr ""
+
+#: extensions/authy/class-authy-api.php:174
+#: extensions/authy/class-authy-api.php:194
+msgid "Invalid Authy Token."
+msgstr ""
+
+#: extensions/authy/class-authy-api.php:227
+msgid "SMS token was sent. Please allow at least 1 minute for the text to arrive."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:53
+msgid "Authy API Production key settings"
+msgstr ""
+
+#. Translators: Authy service documentation
+#: extensions/authy/class-authy-render.php:58
+msgid "Here you can specify your Authy Production API Key or change an existing one. You can get the key from the Twilio console. Refer to the KB article %s for more information and instructions on how to get your key."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:59
+msgid "how to get the Authy Production API key"
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:66
+#: extensions/authy/class-authy.php:262
+msgid "Authy Production API key"
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:70
+#: extensions/authy/class-wizard-steps-authy.php:275
+msgid "Verify the Production API Key"
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:117
+msgid "The primary 2FA service that you are using is unavailable. Please click the button below to login using the secondary backup method."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:138
+msgid "Check your Authy mobile app and approve the OneTouch request to login. Click the button below if you are having issues getting the notification or still want to enter manually the token from the mobile app or SMS."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:140
+#: extensions/email-backup/class-email-backup-render.php:135
+#: includes/classes/Authenticator/class-login.php:921
+#: includes/classes/Authenticator/class-login.php:969
+msgid "Verification Code:"
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:144
+msgid "Waiting for approval from application..."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:145
+msgid "Open Authy mobile app and approve the login request."
+msgstr ""
+
+#: extensions/authy/class-authy-render.php:146
+msgid "Enter token manually"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:82
+msgid "User creation failed"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:141
+#: extensions/authy/class-authy-user.php:218
+#: extensions/authy/class-authy-user.php:388
+#: extensions/authy/class-authy.php:374
+#: extensions/authy/class-authy.php:461
+#: extensions/out-of-band/class-out-of-band.php:390
+msgid "Nonce checking failed"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:144
+#: extensions/authy/class-authy-user.php:221
+#: extensions/authy/class-authy-user.php:391
+#: extensions/authy/class-authy.php:377
+#: extensions/authy/class-authy.php:464
+#: extensions/out-of-band/class-out-of-band.php:393
+msgid "Nonce is not provided"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:147
+#: extensions/authy/class-authy-user.php:224
+#: extensions/authy/class-authy-user.php:394
+#: extensions/authy/class-authy-user.php:399
+#: extensions/authy/class-authy-user.php:404
+#: extensions/authy/class-authy.php:380
+#: extensions/authy/class-authy.php:467
+#: includes/classes/Utils/class-user-utils.php:358
+msgid "Not allowed"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:234
+msgid "Wrong or no token"
+msgstr ""
+
+#. translators: $s the site name.
+#: extensions/authy/class-authy-user.php:297
+msgid "Login request to %s site"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:303
+msgid "Username"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:304
+msgid "IP Address"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:308
+msgid "Email"
+msgstr ""
+
+#: extensions/authy/class-authy-user.php:312
+msgid "Name"
+msgstr ""
+
+#: extensions/authy/class-authy.php:253
+#: extensions/authy/class-authy.php:257
+msgid "Invalid number"
+msgstr ""
+
+#: extensions/authy/class-authy.php:254
+msgid "Invalid country code"
+msgstr ""
+
+#: extensions/authy/class-authy.php:255
+msgid "Too short"
+msgstr ""
+
+#: extensions/authy/class-authy.php:256
+msgid "Too long"
+msgstr ""
+
+#: extensions/authy/class-authy.php:261
+msgid "The Authy production API key is valid."
+msgstr ""
+
+#: extensions/authy/class-authy.php:305
+msgid "Authy service settings"
+msgstr ""
+
+#: extensions/authy/class-authy.php:309
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:111
+#: includes/classes/Admin/Views/class-settings-page-render.php:130
+#: includes/classes/Admin/Views/class-settings-page-render.php:151
+msgid "Use the settings below to configure the properties of the two-factor authentication on your website and how users use it. If you have any questions send us an email at"
+msgstr ""
+
+#: extensions/authy/class-authy.php:310
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:112
+#: includes/classes/Admin/Views/class-settings-page-render.php:131
+#: includes/classes/Admin/Views/class-settings-page-render.php:152
+#: includes/classes/Admin/Views/class-settings-page-render.php:173
+msgid "support@wpwhitesecurity.com"
+msgstr ""
+
+#: extensions/authy/class-authy.php:603
+#: extensions/email-backup/class-email-backup.php:249
+#: includes/classes/Authenticator/class-login.php:312
+#: includes/classes/Authenticator/class-login.php:690
+#: includes/classes/Authenticator/class-login.php:700
+#: includes/classes/Authenticator/class-login.php:717
+#: includes/classes/Authenticator/class-login.php:736
+msgid "Failed to create a login nonce."
+msgstr ""
+
+#: extensions/authy/class-authy.php:607
+#: extensions/email-backup/class-email-backup.php:253
+msgid "One of the required parameters is missing."
+msgstr ""
+
+#: extensions/authy/class-authy.php:610
+#: extensions/email-backup/class-email-backup.php:259
+#: includes/classes/Authenticator/class-login.php:704
+#: includes/classes/Authenticator/class-login.php:743
+msgid "ERROR: Invalid verification code."
+msgstr ""
+
+#. translators: hyperlink "contact our support team".
+#: extensions/authy/class-authy.php:646
+msgid "The %1$s 2FA service is unavailable. Please check the configuration and the service's dashboard to restore functionality. If the problem persists, %2$s."
+msgstr ""
+
+#: extensions/authy/class-authy.php:651
+#: freemius/class-user-licensing.php:761
+msgid "contact our support team"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:73
+msgid "Authy service (Push notification, or code via application, SMS, WhatsApp or incoming call)"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:94
+#: extensions/authy/class-wizard-steps-authy.php:110
+msgid "Reconfigure Authy method"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:96
+msgid "The 2FA service you want to use is currently unavailable. Please try again later or restart the wizard to choose another method."
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:99
+#: extensions/email-backup/class-email-backup-render.php:101
+#: includes/classes/Admin/Views/class-wizard-steps.php:446
+#: includes/classes/Admin/Views/class-wizard-steps.php:452
+#: includes/classes/Admin/Views/class-wizard-steps.php:567
+#: includes/classes/Admin/Views/class-wizard-steps.php:592
+msgid "Close wizard"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:112
+msgid "Please select the phone where link should be send:"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:115
+#: extensions/authy/class-wizard-steps-authy.php:153
+#: extensions/out-of-band/class-wizard-steps-oob.php:105
+#: extensions/out-of-band/class-wizard-steps-oob.php:158
+#: includes/classes/Admin/Views/class-wizard-steps.php:236
+#: includes/classes/Admin/Views/class-wizard-steps.php:310
+#: includes/classes/Admin/Views/class-wizard-steps.php:376
+msgid "I'm Ready"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:115
+msgid "Change phone"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:143
+#: extensions/out-of-band/class-wizard-steps-oob.php:133
+#: includes/classes/Admin/Views/class-wizard-steps.php:281
+#: includes/classes/Admin/Views/class-wizard-steps.php:349
+msgid "Setup the 2FA method"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:144
+msgid "To enable Authy enter the country and cellphone number in order to use it with this account."
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:146
+msgid "Phone"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:158
+#: extensions/out-of-band/class-wizard-steps-oob.php:163
+#: includes/classes/Admin/Views/class-wizard-steps.php:313
+#: includes/classes/Admin/Views/class-wizard-steps.php:381
+msgid "Verify configuration"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:159
+#: extensions/out-of-band/class-wizard-steps-oob.php:164
+#: includes/classes/Admin/Views/class-wizard-steps.php:314
+#: includes/classes/Admin/Views/class-wizard-steps.php:382
+msgid "Almost there…"
+msgstr ""
+
+#. translators: Authy application name.
+#: extensions/authy/class-wizard-steps-authy.php:165
+msgid "Please type in the code from your Authy application with name %1$s."
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:172
+msgid "code"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:177
+#: extensions/out-of-band/class-wizard-steps-oob.php:173
+#: includes/classes/Admin/Views/class-wizard-steps.php:324
+#: includes/classes/Admin/Views/class-wizard-steps.php:391
+msgid "Validate & Save Configuration"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:178
+#: extensions/out-of-band/class-wizard-steps-oob.php:177
+#: includes/classes/Admin/class-user-profile.php:348
+#: includes/classes/Admin/Views/class-wizard-steps.php:325
+#: includes/classes/Admin/Views/class-wizard-steps.php:395
+msgid "Cancel"
+msgstr ""
+
+#. translators: Authy service name
+#: extensions/authy/class-wizard-steps-authy.php:254
+msgid "Authy 2FA service (SMS, App, Push notification & WhatsApp) - enter the %s to enable this method."
+msgstr ""
+
+#. Translators: Authy service documentation
+#: extensions/authy/class-wizard-steps-authy.php:263
+msgid "Refer to the %s for more information on how to use the Authy with WP 2FA for two-factor authentication on your website."
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:264
+msgid "Authy integration documentation"
+msgstr ""
+
+#: extensions/authy/class-wizard-steps-authy.php:271
+msgid "Authy Production API"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:74
+#: includes/classes/Admin/Views/class-wizard-steps.php:416
+#: includes/classes/Admin/Views/class-wizard-steps.php:672
+msgid "Your login just got more secure"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:75
+msgid "Choose you prefered email address for email backup method"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:80
+msgid "Use my user email "
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:89
+#: extensions/out-of-band/class-wizard-steps-oob.php:150
+#: includes/classes/Admin/Views/class-wizard-steps.php:366
+msgid "Use a different email address:"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:90
+#: extensions/out-of-band/class-wizard-steps-oob.php:151
+#: includes/classes/Admin/Views/class-wizard-steps.php:367
+msgid "Email address"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:97
+msgid "Save email backup options"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:98
+msgid "Save backup email address"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:171
+msgid "Or, send me a code to my email."
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:227
+msgid "Allow users to use email based 2FA as secondary backup method to Allow users to use the \"one-time code via email\" as a secondary backup method"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:230
+msgid "By enabling this feature users can also configure and use the \"one-time code via email\" 2FA method as a secondary backup method. This allows them to receive a one-time login code via email if they need to login to the website and cannot generate the login code from their 2FA app. This feature only applies to users who are using smartphone / app 2FA methods."
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:233
+#: extensions/out-of-band/class-wizard-steps-oob.php:270
+#: extensions/role-settings/class-role-settings-render.php:254
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:114
+msgid "Allow user to specify the email address of choice"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:239
+#: extensions/out-of-band/class-wizard-steps-oob.php:276
+#: extensions/role-settings/class-role-settings-render.php:260
+#: extensions/role-settings/class-role-settings-render.php:601
+#: includes/classes/Admin/class-user-profile.php:295
+#: includes/classes/Admin/class-user-profile.php:435
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:670
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:120
+msgid "Yes"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:243
+#: extensions/out-of-band/class-wizard-steps-oob.php:280
+#: extensions/role-settings/class-role-settings-render.php:264
+#: extensions/role-settings/class-role-settings-render.php:611
+#: includes/classes/Admin/class-user-profile.php:296
+#: includes/classes/Admin/class-user-profile.php:436
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:677
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:124
+msgid "No"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:285
+msgid "Configure backup email"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:287
+msgid "Remove backup email method"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:328
+msgid "Email backup page text"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:333
+#: extensions/out-of-band/class-out-of-band.php:897
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:166
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:177
+msgid "Note:"
+msgstr ""
+
+#: extensions/email-backup/class-email-backup-render.php:333
+#: extensions/out-of-band/class-out-of-band.php:897
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:166
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:177
+msgid "Only plain text is allowed."
+msgstr ""
+
+#: extensions/email-backup/class-email-backup.php:64
+msgid "Enter a backup email code."
+msgstr ""
+
+#: extensions/email-backup/class-email-backup.php:141
+msgid "Receive code over email: you will receive a one-time code via email which you need to login and you cannot generate a code from the app."
+msgstr ""
+
+#: extensions/email-backup/class-email-backup.php:257
+#: includes/classes/Authenticator/class-login.php:740
+msgid "A new code has been sent."
+msgstr ""
+
+#: extensions/grace-period/class-grace-period.php:152
+msgid "What should the plugin do with users who do not configure 2FA within the grace period?"
+msgstr ""
+
+#: extensions/grace-period/class-grace-period.php:160
+msgid "Block the user (administrators have to manually unblock them)"
+msgstr ""
+
+#: extensions/grace-period/class-grace-period.php:170
+msgid "Do not let them access the dashboard / user page once they log in until they configure 2FA"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:360
+msgid "Usage of this filter is deprecated."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:407
+#: extensions/out-of-band/class-out-of-band.php:457
+msgid "User is not provided"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:431
+msgid "Your 2FA setup code"
+msgstr ""
+
+#. translators: Test oob code.
+#: extensions/out-of-band/class-out-of-band.php:435
+msgid "Please enter this code to confirm the 2FA setup: %s."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:443
+msgid "this link"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:525
+msgid "An email with a verification link has been sent to your email address. If you are using the same browser and device, please click on the link to verify the login. If you are not, please copy the link and paste it in the address bar above."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:576
+msgid "Your login confirmation link for {site_name}"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:579
+msgid "Someone from {user_ip_address} is trying to log in to {site_name}."
+msgstr ""
+
+#. translators: The login code
+#: extensions/out-of-band/class-out-of-band.php:583
+msgid "Verify the login by clicking %1$s. If this is not you, please ignore this email and contact your website administrator."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:587
+msgid "Note: as a security precaution, the login verification link only works when the link is clicked from the same browser and device combination from where you are trying to log in. If this is not the same browser and device, please copy the link and manually paste it in the address bar of the browser which you are using to log in to the website."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:588
+#: includes/classes/class-wp2fa.php:480
+#: includes/classes/class-wp2fa.php:498
+#: includes/classes/class-wp2fa.php:512
+msgid "Email sent by"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:589
+#: includes/classes/class-wp2fa.php:481
+#: includes/classes/class-wp2fa.php:499
+msgid "WP 2FA plugin."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:611
+#: includes/classes/Admin/class-user-profile.php:606
+msgid "No form"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:622
+#: extensions/out-of-band/class-out-of-band.php:629
+#: includes/classes/Admin/class-user-profile.php:629
+msgid "Invalid Two Factor Authentication code."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:627
+#: includes/classes/Admin/class-user-profile.php:641
+msgid "Please enter the code to finalize the 2FA setup."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:653
+msgid "No code is presented."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:790
+msgid "Login OOB code email"
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:791
+msgid "This is the email sent to a user when a login OOB link code is required."
+msgstr ""
+
+#: extensions/out-of-band/class-out-of-band.php:892
+msgid "Out of band page text"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:72
+msgid "Link sent to you over email."
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:100
+msgid "Reconfigure link over email method"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:102
+msgid "Please select the email address where the OOB code should be sent:"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:105
+#: includes/classes/Admin/Views/class-wizard-steps.php:236
+msgid "Change email address"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:135
+msgid "Please select the email address where the out of band link should be sent:"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:141
+#: includes/classes/Admin/Views/class-wizard-steps.php:357
+msgid "Use my user email ("
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:141
+#: includes/classes/Admin/Views/class-wizard-steps.php:357
+msgid ")"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:156
+#: includes/classes/Admin/Views/class-wizard-steps.php:374
+msgid "Note: you should be able to access the mailbox of the email address to complete the following step."
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:165
+msgid "Please type in the one-time code sent to your email address to finalize the setup. Once the code is confirmed and 2FA is set up, you only have to verify a login by clicking on a link sent to you via email."
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:168
+#: includes/classes/Admin/Views/class-wizard-steps.php:318
+#: includes/classes/Admin/Views/class-wizard-steps.php:386
+msgid "Authentication Code"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:175
+#: includes/classes/Admin/Views/class-wizard-steps.php:393
+msgid "Send me another code"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:242
+msgid "Link via email (Out-of-band email)"
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:262
+msgid "Link will be valid for: "
+msgstr ""
+
+#: extensions/out-of-band/class-wizard-steps-oob.php:264
+#: extensions/role-settings/class-role-settings-render.php:248
+msgid "minutes"
+msgstr ""
+
+#: extensions/reporting/class-abstract-report.php:139
+#: extensions/reporting/class-abstract-report.php:194
+msgid "Total"
+msgstr ""
+
+#: extensions/reporting/class-abstract-report.php:193
+msgid "Role"
+msgstr ""
+
+#: extensions/reporting/class-core.php:132
+#: extensions/reporting/class-core.php:133
+#: extensions/reporting/class-core.php:154
+msgid "Reports"
+msgstr ""
+
+#: extensions/reporting/class-core.php:155
+msgid "In this page you will find a number of reports which allow you to get a better overview of the current state of 2FA on your website."
+msgstr ""
+
+#: extensions/reporting/class-core.php:173
+msgid "Reports data"
+msgstr ""
+
+#: extensions/reporting/class-core.php:176
+msgid "never"
+msgstr ""
+
+#: extensions/reporting/class-core.php:180
+msgid "The reports' data is updated automatically every 24 hours. The process can take up to a few minutes. Click the Update reports data button below to update the data and see the most recent reports"
+msgstr ""
+
+#: extensions/reporting/class-core.php:190
+msgid "Update reports data"
+msgstr ""
+
+#: extensions/reporting/class-core.php:191
+msgid "Last time reports data was updated:"
+msgstr ""
+
+#: extensions/reporting/class-core.php:279
+msgid "TOTP (App)"
+msgstr ""
+
+#: extensions/reporting/class-core.php:282
+msgid "HOTP (Email)"
+msgstr ""
+
+#: extensions/reporting/class-core.php:285
+msgid "Out-of-band"
+msgstr ""
+
+#: extensions/reporting/class-core.php:288
+#: extensions/role-settings/class-role-settings-render.php:329
+#: includes/classes/Admin/class-premium-features.php:272
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:161
+msgid "Backup codes"
+msgstr ""
+
+#: extensions/reporting/class-core.php:291
+msgid "Application passwords"
+msgstr ""
+
+#: extensions/reporting/class-methods-report.php:38
+msgid "2FA methods and backup codes"
+msgstr ""
+
+#: extensions/reporting/class-user-status-report.php:35
+msgid "2FA users setup attribute"
+msgstr ""
+
+#. translators: Test oob code.
+#: extensions/role-settings/class-role-settings-controller.php:165
+msgid "Grace period must be at least 1 day/hour for role %s."
+msgstr ""
+
+#. translators: Test oob code.
+#: extensions/role-settings/class-role-settings-controller.php:195
+msgid "You must provide a new page slug for role %s."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:97
+msgid "Site-wide policies"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:170
+msgid "Configure different 2FA settings for this user role"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:187
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:51
+msgid "Which of the below 2FA methods can users use?"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:190
+msgid "Select the allowed primary 2FA methods"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:193
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:58
+msgid "Primary 2FA methods:"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:201
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:65
+msgid "One-time code via 2FA App (TOTP) - "
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:201
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:65
+msgid "complete list of supported 2FA apps."
+msgstr ""
+
+#. translators: link to the knowledge base website
+#: extensions/role-settings/class-role-settings-render.php:207
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:72
+#: includes/classes/Admin/Views/class-wizard-steps.php:149
+msgid "Refer to the %s for more information on how to setup these apps and which apps are supported."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:208
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:73
+#: includes/classes/Admin/Views/class-wizard-steps.php:150
+msgid "2FA apps article on our knowledge base"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:233
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:96
+msgid "One-time code via email (HOTP)"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:246
+msgid "The code will be valid for: "
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:303
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:152
+msgid "Secondary 2FA methods:"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:331
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:167
+msgid "Backup codes are a secondary method which you can use to log in to the website in case the primary 2FA method is unavailable. Therefore they can't be enabled and used as a primary method."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:460
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:832
+msgid "Should users be asked to setup 2FA instantly or should they have a grace period?"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:462
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:834
+msgid "When you enforce 2FA on users they have a grace period to configure 2FA. If they fail to configure it within the configured stipulated time, their account will be locked and have to be unlocked manually. Note that user accounts cannot be unlocked automatically, even if you change the settings. As a security precaution they always have to be unlocked them manually. Maximum grace period is 10 days."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:462
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:834
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:234
+msgid "Learn more."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:468
+#: includes/classes/Admin/class-setup-wizard.php:484
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:840
+msgid "Grace period"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:480
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:551
+msgid "Users have to configure 2FA straight away."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:489
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:558
+msgid "Give users a grace period to configure 2FA"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:498
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:567
+msgid "hours"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:505
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:573
+msgid "days"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:545
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:763
+msgid "Do you want to redirect the user to a specific page after completing the 2FA setup wizard?"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:547
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:765
+msgid "Specify a URL of a page where you want to redirect the users once they complete the 2FA setup wizard. Leave empty for default behaviour, in which users are redirected back to the page from where they launched the wizard."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:552
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:770
+msgid "Redirect users after 2FA setup to"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:584
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:656
+msgid "Can users access the WordPress dashboard or you have custom profile pages? "
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:586
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:658
+msgid "If your users do not have access to the WordPress dashboard (because you use custom user profile pages) enable this option. Once enabled, the plugin creates a page which ONLY authenticated users can access to configure their user 2FA settings. A link to this page is sent in the 2FA welcome email."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:591
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:663
+msgid "Frontend 2FA settings page"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:617
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:683
+msgid "Frontend 2FA settings page URL"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:652
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:715
+msgid "Edit Page"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:652
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:715
+msgid "View Page"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:659
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:722
+msgid "Specify the page where you want to redirect your users to after they complete the 2FA setup. This will override the global redirect setting."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:662
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:725
+msgid "Redirect users after 2FA setup"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:696
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:873
+msgid "Should users be able to disable 2FA on their user profile?"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:698
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:875
+msgid "Users can configure and also disable 2FA on their profile by clicking the \"Remove 2FA\" button. Enable this setting to disable the Remove 2FA button so users cannot disable 2FA from their user profile."
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:703
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:880
+msgid "Hide the Remove 2FA button"
+msgstr ""
+
+#: extensions/role-settings/class-role-settings-render.php:712
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:886
+msgid "Hide the Remove 2FA button on user profile pages"
+msgstr ""
+
+#: extensions/status-filter/class-core.php:103
+msgid "All 2FA statuses"
+msgstr ""
+
+#: extensions/status-filter/class-core.php:109
+msgid "Filter"
+msgstr ""
+
+#. Translators: The number of days
+#: extensions/trusted-devices/class-core.php:79
+msgid "Remember this device for %d days"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:155
+msgid "Allow users to have trusted devices so they are not asked for a 2FA code during login?"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:157
+msgid "When this feature is enabled, users can tick the option \"Remember this device\" in the login page so the plugin does not ask them for a 2FA code for a number of days."
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:164
+#: extensions/trusted-devices/class-settings.php:175
+msgid "Allow the \"Remember this device\" user option"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:183
+msgid "For how long should the plugin remember a device?"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:203
+msgid "When should users be prompted for 2FA code on trusted devices?"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:205
+msgid "When users add  a trusted device, a cookie is stored in the users' browsers. If the cookie is not detected, the plugin will prompt the users to enter a 2FA code to log in to the website. For additional security, you can also configure the plugin to prompt the user for a 2FA code when there is a cookie but the IP address of the device is different from the one that was used when the device was first remembered."
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:210
+msgid "Prompt user for 2FA code on trusted device"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:221
+msgid "Only when cookie is not found"
+msgstr ""
+
+#: extensions/trusted-devices/class-settings.php:232
+msgid "When cookie is not found or when the cookie is found but the IP address is different"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:60
+msgid "Log in"
+msgstr ""
+
+#. translators: support email.
+#: extensions/white-labeling/class-white-labeling-render.php:137
+msgid "Use the settings below to customize the looks of the 2FA code page so it meets your branding requirements. If you have any questions send us an email at %1$s."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:142
+msgid "Change the background color"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:144
+msgid "This is the background color selector, from here you can change the form background color."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:149
+msgid "2FA background color"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:158
+msgid "Change the logo"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:160
+msgid "This is the logo image selector, from here you can change the form logo."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:165
+msgid "Logo on page"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:172
+msgid "Select"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:202
+msgid "Change the font type"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:204
+msgid "This is the font type color selector, from here you can change the form font type."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:209
+msgid "Font type"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:218
+msgid "Change the button color"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:220
+msgid "This is the button color selector, from here you can change the form button color."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:225
+msgid "2FA button background color"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:234
+msgid "Change the button text on 2FA code page"
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:236
+msgid "This is the button text, from here you can change the form button text."
+msgstr ""
+
+#: extensions/white-labeling/class-white-labeling-render.php:241
+msgid "Button text"
+msgstr ""
+
+#. translators: User's first name
+#: freemius/class-freemius-helper.php:172
+#: freemius/class-freemius-helper.php:200
+msgid "Hey %s"
+msgstr ""
+
+#: freemius/class-freemius-helper.php:176
+msgid "Never miss an important update! Opt-in to our security and feature updates notifications, and non-sensitive diagnostic tracking with freemius.com."
+msgstr ""
+
+#: freemius/class-freemius-helper.php:177
+#: freemius/class-freemius-helper.php:212
+msgid "Note: "
+msgstr ""
+
+#: freemius/class-freemius-helper.php:178
+#: freemius/class-freemius-helper.php:213
+msgid "NO ACTIVITY LOG ACTIVITY & DATA IS SENT BACK TO OUR SERVERS."
+msgstr ""
+
+#. translators: 1: Plugin name. 2: Plugin name. 2: Freemius link. 4: Plugin name.
+#: freemius/class-freemius-helper.php:206
+msgid "Please help us improve %1$s! If you opt-in, some non-sensitive data about your usage of %2$s will be sent to %3$s, a diagnostic tracking service we use. If you skip this, that's okay! %2$s will still work just fine."
+msgstr ""
+
+#. Translators: Expired message and time
+#: freemius/class-freemius-helper.php:282
+msgid "%s You need to renew your license to continue using premium features."
+msgstr ""
+
+#. Translators: Number of sites
+#: freemius/class-freemius-helper.php:285
+msgid "The license is limited to %s sub-sites. You need to upgrade your license to cover all the sub-sites on this network."
+msgstr ""
+
+#. translators: plugin version
+#: freemius/class-freemius-helper.php:321
+msgid "You need to activate the license key to use WP 2FA - Two-factor authentication for WordPress . %2$s"
+msgstr ""
+
+#: freemius/class-freemius-helper.php:322
+msgid "Activate the license key now"
+msgstr ""
+
+#. translators: settings hyperlink saying "here"
+#: freemius/class-user-licensing.php:500
+msgid "The updates for this plugin have been blocked because of license problems. Click %s for more information."
+msgstr ""
+
+#. Translators: 1. number of users who can use 2FA. 2. Number of users allowed in purchased plan.
+#: freemius/class-user-licensing.php:599
+msgid "You are enforcing 2FA on %1$d users, which is more than the license key allows. You have a %2$d users license. You can upgrade the license key, enter a new license key, or click Exclude users to go back to the configuration and reduce the number of users on which you want to enforce 2FA on."
+msgstr ""
+
+#: freemius/class-user-licensing.php:605
+msgid "Upgrade your license key"
+msgstr ""
+
+#: freemius/class-user-licensing.php:606
+#: includes/classes/Admin/class-setup-wizard.php:468
+msgid "Exclude users"
+msgstr ""
+
+#: freemius/class-user-licensing.php:607
+msgid "Enter new license key"
+msgstr ""
+
+#: freemius/class-user-licensing.php:610
+msgid "Important: when the license limit is exceeded the plugin updates are blocked."
+msgstr ""
+
+#: freemius/class-user-licensing.php:735
+msgid "License validation successful. You're fully licensed."
+msgstr ""
+
+#. Translators: hyperlink "contact our support team"
+#: freemius/class-user-licensing.php:760
+msgid "There was a problem validating your license. Please try again later or %s."
+msgstr ""
+
+#: freemius/class-user-licensing.php:765
+msgid "Validate now"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:30
+#: includes/classes/Admin/class-help-contact-us.php:31
+msgid "Help & Contact Us"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:48
+#: includes/classes/Admin/class-help-contact-us.php:55
+msgid "Help"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:56
+msgid "System info"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:82
+#: includes/classes/Admin/class-help-contact-us.php:92
+msgid "Getting started"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:84
+msgid "Getting started with WP 2FA and making 2FA compulsory is as easy as 1 2 3 with WP 2FA. This can be easily done through the install wizard or the plugin settings. If you are stuck, no problem! Below are a few links of guides to help you get started:"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:86
+msgid "Getting started with WP 2FA"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:87
+msgid "Configuring 2FA policies & making 2FA mandatory"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:88
+msgid "Allowing users to configure 2FA from a website page (no dashboard access)"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:96
+msgid "Plugin documentation"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:98
+msgid "For more technical information about the WP 2FA plugin please visit the plugin's knowledge base."
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:100
+msgid "Knowledge base"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:106
+msgid "Plugin support"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:108
+msgid "Do you need assistance with the plugin? Have you noticed or encountered an issue while using WP 2FA, or do you just want to report something to us?"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:110
+msgid "Open support ticket"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:111
+msgid "Contact us"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:128
+msgid "System information"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:175
+msgid "Our WordPress Plugins"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:183
+msgid "Keep a log of users and under the hood site activity."
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:199
+#: includes/classes/Admin/class-help-contact-us.php:226
+#: includes/classes/Admin/class-help-contact-us.php:253
+#: includes/classes/Admin/class-help-contact-us.php:280
+msgid "LEARN MORE"
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:210
+msgid "Enforce strong password policies on WordPress."
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:237
+msgid "Automatically identify unauthorized file changes on your WordPress site."
+msgstr ""
+
+#: includes/classes/Admin/class-help-contact-us.php:264
+msgid "Protect website forms & login pages from spam bots & automated attacks."
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:28
+msgid "Premium Features"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:29
+msgid "Premium Features ➤"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:45
+msgid "Upgrade to Premium to:"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:46
+msgid "Login with 2FA via push notification, SMS, WhatsApp or incoming call"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:47
+msgid "Add trusted devices ('Remember this device' option)"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:48
+msgid "Configure different 2FA policies for different user roles"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:49
+msgid "White labeling of 2FA code page"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:50
+#: includes/classes/Admin/class-premium-features.php:306
+msgid "One-click 2FA login"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:51
+msgid "Many other features"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:52
+#: includes/classes/Admin/class-premium-features.php:394
+msgid "No Ads!"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:53
+msgid "Upgrade now"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:53
+msgid "Get a Free 14-day trial"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:176
+msgid "Upgrade to Premium to benefit more!"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:183
+msgid "WP 2FA is your trusted gatekeeper, keeping your website, users, customers, team members, and you secure and better protected than ever before."
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:184
+msgid "Upgrade to WP 2FA Premium to add more secure authentication options and automate more, encouraging users to utilize 2FA to its fullest extent and give your users more flexibility by allowing them to work from anywhere without compromising on security."
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:188
+msgid "Upgrade to Premium to start benefiting from value-added features such as:"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:190
+msgid "More 2FA methods, including push notification, SMS, WhatsApp, and incoming call"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:191
+msgid "Trusted devices: Give users the option to add trusted devices so they do not have to enter the 2FA code each time they log in"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:192
+msgid "White labelling features: Gain increased trust by extending your business' branding and tone of voice to all 2FA pages"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:193
+msgid "Configure different policies for different user roles: While requiring everyone to use 2FA is generally a good idea, stricter policies for more sensitive accounts can help you keep everyone happy"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:196
+#: includes/classes/Admin/class-premium-features.php:407
+msgid "UPGRADE NOW"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:197
+#: includes/classes/Admin/class-premium-features.php:408
+msgid "Get the Free 14-day trial"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:201
+msgid "Take advantage of these benefits and many others, with prices starting from as little as $59 for 5 users per year. Below is the complete list of Premium features:"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:209
+msgid "Premium"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:212
+msgid "Free"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:217
+msgid "Support"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:220
+msgid "Email & forums"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:223
+msgid "Forums"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:228
+msgid "Install on unlimited websites"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:239
+msgid "E-commerce, membership & other third party plugins support"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:250
+msgid "2FA code via mobile app"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:261
+msgid "2FA code over email"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:283
+msgid "2FA login with push notification"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:294
+msgid "2FA login with SMS, WhatsApp & incoming call"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:317
+msgid "Different 2FA policies per user role"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:328
+msgid "Trusted devices (don't ask for 2FA code)"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:339
+msgid "Secondary 2FA backup method"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:350
+msgid "White labeling (logo, text, colors & fonts)"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:361
+msgid "Reports & Statistics"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:372
+msgid "Configurable 2FA code expiration time"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:383
+msgid "Sortable users' 2FA status"
+msgstr ""
+
+#. translators: 1: Link to our site 2: Link to our contact page
+#: includes/classes/Admin/class-premium-features.php:417
+msgid "For more information about the WP 2FA plugin visit the %1$s. If you have any questions or would like to get in touch with us, please use %2$s. We look forward to hearing from you."
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:418
+msgid "plugin's website"
+msgstr ""
+
+#: includes/classes/Admin/class-premium-features.php:419
+msgid "our contact form"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:48
+#: includes/classes/Admin/class-settings-page.php:49
+#: includes/classes/Admin/class-settings-page.php:127
+#: includes/classes/Admin/class-setup-wizard.php:344
+msgid "WP 2FA"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:64
+#: includes/classes/Admin/class-settings-page.php:65
+#: includes/classes/Admin/class-settings-page.php:138
+#: includes/classes/Admin/class-settings-page.php:139
+msgid "2FA Policies"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:74
+#: includes/classes/Admin/class-settings-page.php:126
+#: includes/classes/Admin/class-settings-page.php:149
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:84
+#: includes/classes/Admin/Views/class-settings-page-render.php:42
+msgid "WP 2FA Settings"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:75
+#: includes/classes/Admin/class-settings-page.php:150
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:183
+#: includes/classes/Admin/class-settings-page.php:227
+#: includes/classes/Admin/class-settings-page.php:276
+#: includes/classes/Admin/class-settings-page.php:314
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:220
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:414
+msgid "Free 14-day Premium Trial"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:424
+msgid "Configure 2FA Settings"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:438
+msgid "User account successfully unlocked. User can login again."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:440
+#: includes/classes/Admin/class-settings-page.php:454
+#: includes/classes/Admin/class-settings-page.php:468
+#: includes/classes/Admin/class-settings-page.php:519
+#: includes/classes/Admin/class-settings-page.php:529
+#: includes/classes/Admin/class-settings-page.php:539
+#: includes/classes/Admin/class-settings-page.php:563
+#: includes/classes/Admin/class-settings-page.php:573
+#: includes/classes/Admin/class-settings-page.php:584
+#: includes/classes/Admin/class-settings-page.php:594
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:452
+msgid "Your 2FA settings have been removed."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:466
+msgid "User 2FA settings have been removed."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:517
+#: includes/classes/Admin/class-settings-page.php:571
+msgid "2FA Settings Updated"
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:527
+#: includes/classes/Admin/class-settings-page.php:582
+msgid "Please ensure both custom email address and display name are provided."
+msgstr ""
+
+#: includes/classes/Admin/class-settings-page.php:612
+msgid "WP 2FA User Page"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:112
+msgid "Welcome"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:117
+msgid "Select 2FA Methods"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:123
+msgid "Setup Finish"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:242
+#: includes/classes/Shortcodes/class-shortcodes.php:53
+#: includes/classes/Shortcodes/class-shortcodes.php:110
+#: includes/functions/core.php:258
+msgid "Please use a valid email address"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:250
+#: includes/classes/Shortcodes/class-shortcodes.php:47
+#: includes/classes/Shortcodes/class-shortcodes.php:95
+#: includes/classes/Shortcodes/class-shortcodes.php:107
+#: includes/classes/Shortcodes/class-shortcodes.php:187
+#: includes/functions/core.php:266
+msgid "These are the 2FA backup codes for the user"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:251
+#: includes/classes/Shortcodes/class-shortcodes.php:48
+#: includes/classes/Shortcodes/class-shortcodes.php:96
+#: includes/classes/Shortcodes/class-shortcodes.php:108
+#: includes/classes/Shortcodes/class-shortcodes.php:188
+#: includes/functions/core.php:267
+msgid "I'm ready"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:252
+#: includes/classes/Shortcodes/class-shortcodes.php:49
+#: includes/classes/Shortcodes/class-shortcodes.php:97
+#: includes/classes/Shortcodes/class-shortcodes.php:109
+#: includes/classes/Shortcodes/class-shortcodes.php:189
+#: includes/functions/core.php:268
+msgid "New code sent"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:291
+msgid "WP 2FA &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:330
+#: includes/classes/Shortcodes/class-shortcodes.php:52
+#: includes/classes/Shortcodes/class-shortcodes.php:100
+#: includes/classes/Shortcodes/class-shortcodes.php:192
+msgid "Close Wizard"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:344
+msgid "If you cancel this wizard, the default plugin settings will be applied. You can always configure the plugin settings and two-factor authentication policies at a later stage from the "
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:344
+msgid " entry in your WordPress dashboard menu."
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:346
+msgid "OK, close wizard"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:347
+msgid "Continue with wizard"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:456
+msgid "Choose 2FA methods"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:459
+#: includes/classes/Admin/class-setup-wizard.php:465
+#: includes/classes/Admin/class-setup-wizard.php:471
+#: includes/classes/Admin/class-setup-wizard.php:479
+msgid "Continue Setup"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:462
+msgid "2FA policy"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:476
+msgid "Exclude sites"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:485
+msgid "How long should the grace period for your users be?"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:486
+msgid "When you configure the 2FA policies and require users to configure 2FA, they can either have a grace period to configure 2FA, or can be required to configure 2FA before the next time they login. Choose which method you'd like to use:"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:489
+msgid "All done"
+msgstr ""
+
+#: includes/classes/Admin/class-setup-wizard.php:617
+msgid "Welcome to WP 2FA"
+msgstr ""
+
+#: includes/classes/Admin/class-user-listing.php:55
+msgid "2FA Status"
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:80
+msgid "The 2FA method you were using is no longer allowed on this website. Please reconfigure 2FA using one of the supported methods within"
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:82
+msgid "This website’s administrator requires you to enable 2FA authentication"
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:114
+#: includes/classes/Admin/class-user-notices.php:136
+#: includes/classes/Admin/Views/class-wizard-steps.php:601
+msgid "Configure 2FA now"
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:115
+msgid "Remind me on next login"
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:133
+msgid "The 2FA method you were using is no longer allowed on this website. Please reconfigure 2FA using one of the supported methods."
+msgstr ""
+
+#: includes/classes/Admin/class-user-notices.php:137
+msgid "I'll do it later"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:66
+msgid "Add two-factor authentication to strengthen the security of your user account."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:77
+msgid "This user is required to setup 2FA but has not yet done so."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:81
+msgid "This user is excluded from configuring 2FA."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:127
+msgid "Change 2FA Settings"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:130
+#: includes/classes/Admin/class-user-profile.php:150
+msgid "Remove 2FA"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:136
+msgid "Generate list of Backup Codes"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:140
+#: includes/classes/Admin/class-user-profile.php:156
+msgid "unused backup codes remaining."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:142
+#: includes/classes/Admin/class-user-profile.php:158
+msgid "Learn more about backup codes"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:147
+msgid "Change 2FA settings"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:189
+msgid "Configure 2FA"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:193
+msgid "Configure Two-factor authentication (2FA)"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:200
+msgid "The user has already configured 2FA. When you reset the user's current 2FA configuration, the user can log back in with just the username and password."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:212
+msgid "Reset 2FA configuration"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:225
+msgid "Unlock user and reset the grace period"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:229
+msgid "Two-factor authentication settings"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:247
+msgid "2FA Setup:"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:292
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:293
+msgid "Any unsaved changes will be lost!"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:322
+msgid "Choose the 2FA authentication method"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:326
+msgid "Only the below 2FA method is allowed on this website:"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:347
+msgid "Next Step"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:432
+msgid "Remove 2FA?"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:433
+msgid "Are you sure you want to remove two-factor authentication and lower the security of your user account?"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:500
+msgid "Unlock user"
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:632
+msgid "Invalid Two Factor Authentication secret key."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:638
+msgid "Invalid Email Authentication code."
+msgstr ""
+
+#: includes/classes/Admin/class-user-profile.php:659
+msgid "Error processing form"
+msgstr ""
+
+#. translators: %s - the number of methods.
+#: includes/classes/Admin/Controllers/class-methods.php:120
+msgid "There is %s method available from which you can choose for 2FA:"
+msgid_plural "There are %s methods available from which you can choose for 2FA:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:41
+msgid "Save email settings and templates"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:98
+msgid "Which email address should the plugin use as a from address?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:100
+msgid "Use these settings to customize the \"from\" name and email address for all correspondence sent from our plugin."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:105
+msgid "From email & name"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:113
+msgid "Use the email address from the WordPress general settings."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:121
+msgid "Use another email address"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:125
+msgid "Email Address:"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:126
+msgid "Display Name:"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:138
+msgid "Email delivery test"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:140
+msgid "The plugin sends emails with one-time codes, blocked account notifications and more. Use the button below to confirm the plugin can successfully send emails."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:147
+msgid "Test email delivery"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:168
+msgid "Login code email"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:169
+msgid "This is the email sent to a user when a login code is required."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:173
+msgid "User account locked email"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:174
+msgid "This is the email sent to a user upon grace period expiry."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:178
+msgid "User account unlocked email"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:179
+msgid "This is the email sent to a user when the user's account has been unlocked."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:233
+msgid "Please provide an email address"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:243
+msgid "Please provide a display name."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:254
+msgid "Please provide a valid email address. Your email address has not been updated."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:268
+msgid "Please only use alphanumeric text. Your display name has not been updated."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:344
+msgid "Email Templates"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:353
+msgid "Send this email"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:359
+msgid "Uncheck to disable this message."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:366
+msgid "Email subject"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:375
+msgid "Email body"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:377
+msgid "Available template tags:"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:415
+msgid "Send test email"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:111
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:475
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:76
+msgid "Settings saving processes complete"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:185
+msgid "Do you want to delete the plugin data from the database upon uninstall?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:187
+msgid "The plugin saves its settings in the WordPress database. By default the plugin settings are kept in the database so if it is installed again, you do not have to reconfigure the plugin. Enable this setting to delete the plugin settings from the database upon uninstall."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:192
+msgid "Delete data"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:198
+msgid "Delete data upon uninstall"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:222
+msgid "How often should the plugin check if a user's grace period is over?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:224
+msgid "By default the plugin checks if a users grace periods to setup 2FA has passed when the user tries to login. If you would like the plugin to advise the user within an hour, enable the below option to add a cron job that runs every hour."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:229
+msgid "Enable cron"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:235
+msgid "Use cron job to check grace periods"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:240
+msgid "Destroy session"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:246
+msgid "Destroy user session when grace period expires?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:265
+msgid "Limit 2FA settings access?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:267
+msgid "Use this setting to hide this plugin configuration area from all other admins."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:272
+msgid "Limit access to 2FA settings"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:278
+msgid "Hide settings from other administrators"
+msgstr ""
+
+#. translators: support email.
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:300
+msgid "Use this setting below to configure the properties of the two-factor authentication on your website and how users use it. If you have any questions send us an email at %1$s."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:305
+msgid "What should the plugin do if the 2FA method used during a user login is unavailable?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:307
+msgid "There may be cases in which the 2FA service is unavailable when a user is trying to log in. For example, the service is unreachable or there are no credits to complete the action. In this case you can configure the plugin to either block the login process, or allow the user to log in without 2FA authentication."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:312
+msgid "Select action"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:319
+msgid "Block the login."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:327
+msgid "Allow the login without 2FA"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:66
+msgid "Exclude yourself?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:67
+msgid "You are about to enforce 2FA instantly on all users, including yourself, however you have not yet configured your own 2FA method. What would you like to do?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:74
+msgid "Continue anyway"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:75
+msgid "Exclude myself from 2FA policies"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:88
+#: includes/classes/Admin/Views/class-settings-page-render.php:46
+msgid "These settings have been disabled by your site administrator, please contact them for further assistance."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:168
+msgid "The plugin created the 2FA settings page with the URL:"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:170
+msgid "You can edit this page using the page editor, like you do with all other pages."
+msgstr ""
+
+#. translators: %s: tag name.
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:174
+msgid "Use the %s html tag in the email templates to include the URL of the 2FA configuration page when notifying the users to configure two-factor authentication."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:184
+msgid "OK"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:232
+msgid "At least one 2FA method should be enabled."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:333
+msgid "The following setting are being saved: "
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:341
+msgid "Grace period must be at least 1 day/hour"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:403
+msgid "You must provide a new page slug."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:434
+msgid "You must specify at least one role or user"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:574
+msgid "Page generated by"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:575
+msgid "WP 2FA Plugin"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:154
+msgid "Change the default text used in the 2FA code page?"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:156
+msgid "This is the text shown to the users on the page when they are asked to enter the 2FA code. To change the default text, simply type it in the below placeholder."
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:161
+msgid "2FA code page text"
+msgstr ""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:172
+msgid "Backup code page text"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:40
+msgid "Which two-factor authentication methods can your users use?"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:42
+msgid "When you uncheck any of the below 2FA methods it won't be available for your users to use. You can always change this later on from the plugin's settings."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:54
+msgid "Select the methods"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:189
+msgid "Secondary 2FA methods and other settings"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:191
+msgid "You can configure other 2FA method settings and the 2FA backup methods from the plugin settings later on."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:232
+msgid "Do you want to enforce 2FA for some, or all the users? "
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:234
+msgid "When you enforce 2FA the users will be prompted to configure 2FA the next time they login. Users have a grace period for configuring 2FA. You can configure the grace period and also exclude user(s) or role(s) in this settings page. "
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:242
+msgid "Enforce 2FA on"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:250
+msgid "All users"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:257
+msgid "Only super admins"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:262
+msgid "Only super admins and site admins"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:271
+msgid "Only for specific users and roles"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:276
+msgid "Users :"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:292
+msgid "Roles :"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:314
+msgid "Also enforce 2FA on network users with super admin privileges"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:324
+msgid "These sub-sites"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:328
+msgid "Sites :"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:356
+msgid "Do not enforce on any users"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:383
+msgid "Do you want to exclude any users or roles from 2FA? "
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:385
+msgid "If you are enforcing 2FA on all users but for some reason you would like to exclude individual user(s) or users with a specific role, you can exclude them below"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:393
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:396
+msgid "Exclude the following users"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:418
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:423
+msgid "Exclude the following roles"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:445
+msgid "Also exclude users with super admin privilege"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:471
+msgid "Do you want to exclude all the users of a site from 2FA? "
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:473
+msgid "If you are enforcing 2FA on all users but for some reason you do not want to enforce it on a specific sub site, specify the sub site name below:"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:481
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:490
+msgid "Exclude the following sites"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:603
+msgid "Seconds"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:615
+msgid "Note: If users do not configure it within the configured stipulated time, their account will be locked and have to be unlocked manually."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-settings-page-render.php:126
+msgid "General plugin settings"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-settings-page-render.php:147
+msgid "Email Settings & Templates"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-settings-page-render.php:168
+msgid "White labeling"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-settings-page-render.php:172
+msgid "Use the settings below to configure the emails which are sent to users as part of the 2FA plugin. If you have any questions send us an email at"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:85
+msgid "You are required to configure 2FA."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:86
+msgid "In order to keep this site - and your details secure, this website’s administrator requires you to enable 2FA authentication to continue."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:87
+msgid "Two factor authentication ensures only you have access to your account by creating an added layer of security when logging in -"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:87
+msgid "Learn more"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:93
+#: includes/classes/Admin/Views/class-wizard-steps.php:94
+msgid "Next"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:114
+msgid "Let us help you get started"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:115
+msgid "Thank you for installing the WP 2FA plugin. This quick wizard will assist you with configuring the plugin and the two-factor authentication (2FA) settings for your user and the users on this website."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:120
+msgid "Let’s get started!"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:124
+msgid "Skip Wizard - I know how to do this"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:143
+msgid "One-time code generated with your app of choice (most reliable and secure)"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:172
+msgid "One-time code sent to you over email"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:203
+msgid "Reconfigure the 2FA App"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:206
+msgid "Click the below button to reconfigure the current 2FA method. Note that once reset you will have to re-scan the QR code on all devices you want this to work on because the previous codes will stop working."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:209
+msgid "Reset Key"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:231
+msgid "Reconfigure one-time code over email method"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:233
+#: includes/classes/Admin/Views/class-wizard-steps.php:351
+msgid "Please select the email address where the one-time code should be sent:"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:285
+msgid "Download and start the application of your choice (for detailed steps on setting it up click on the application icon of our choice below)"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:286
+msgid "From within the application scan the QR code provided on the right. Otherwise, enter the following code manually in the application:"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:289
+msgid "Click the \"I'm ready\" button below when you complete the application setup process to proceed with the wizard."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:303
+msgid "For detailed guides for your desired app, click below."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:315
+msgid "Please type in the one-time code from your Google Authenticator app to finalize the setup."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:383
+msgid "Please type in the one-time code sent to your email address to finalize the setup."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:417
+msgid "Congratulations! You have enabled two-factor authentication for your user. You’ve just helped towards making this website more secure!"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:421
+msgid "You can exit this wizard now or continue to create backup codes."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:425
+#: includes/classes/Admin/Views/class-wizard-steps.php:473
+#: includes/classes/Admin/Views/class-wizard-steps.php:476
+msgid "Generate backup codes"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:426
+#: includes/classes/Admin/Views/class-wizard-steps.php:477
+#: includes/classes/Admin/Views/class-wizard-steps.php:500
+msgid "Generate list of backup codes"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:432
+#: includes/classes/Admin/Views/class-wizard-steps.php:437
+#: includes/classes/Admin/Views/class-wizard-steps.php:438
+#: includes/classes/Admin/Views/class-wizard-steps.php:479
+#: includes/classes/Admin/Views/class-wizard-steps.php:480
+msgid "I’ll generate them later"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:472
+msgid "Generate codes"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:474
+msgid "It is recommended to generate and print some backup codes in case you lose access to your primary 2FA method. "
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:498
+msgid "Backup 2FA methods:"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:518
+msgid "Your backup codes"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:519
+msgid "Backup codes generated"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:520
+msgid "Here are your backup codes:"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:523
+#: includes/classes/Admin/Views/class-wizard-steps.php:524
+msgid "Download"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:526
+#: includes/classes/Admin/Views/class-wizard-steps.php:527
+msgid "Print"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:533
+#: includes/classes/Admin/Views/class-wizard-steps.php:539
+msgid "I'm ready, close the wizard"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:565
+msgid "Congratulations! You are all set."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:582
+msgid "Congratulations."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:582
+msgid "Congratulations, you're almost there..."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:585
+msgid "Great job, the plugin and 2FA policies are now configured. You can always change the plugin settings and 2FA policies at a later stage from the WP 2FA entry in the WordPress menu."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:598
+msgid "Now you need to configure 2FA for your own user account. You can do this now (recommended) or later."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:604
+#: includes/classes/Admin/Views/class-wizard-steps.php:695
+msgid "Close wizard & configure 2FA later"
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:673
+msgid "It is recommended to have a backup 2FA method in case you cannot generate a code from your 2FA app and you need to log in. You can configure any of the below. You can always configure any or both from your user profile page later."
+msgstr ""
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:692
+msgid "Configure backup 2FA method"
+msgstr ""
+
+#. translators: %s: count
+#: includes/classes/Authenticator/class-backup-codes.php:162
+msgid "%s unused code remaining."
+msgid_plural "%s unused codes remaining."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: the site's domain
+#: includes/classes/Authenticator/class-backup-codes.php:167
+msgid "Two-Factor Backup Codes for %s"
+msgstr ""
+
+#. translators: URL with more information about the backup codes
+#: includes/classes/Authenticator/class-backup-codes.php:253
+msgid "Login with a backup code: you will get 10 backup codes and you can use one of them when you need to login and you cannot generate a code from the app. %s"
+msgstr ""
+
+#: includes/classes/Authenticator/class-backup-codes.php:254
+msgid "More information."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:221
+msgid "Error: API login for user disabled."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:266
+msgid "Your user account has been locked because you have not configured 2FA within the grace period. Please contact the website administrator to unlock your user and you can configure 2FA."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:347
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:452
+msgid "Log In"
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:474
+msgid "Resend Code"
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:508
+msgid "Or, use a backup code."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:531
+msgid "Are you lost?"
+msgstr ""
+
+#. translators: %s: site name.
+#: includes/classes/Authenticator/class-login.php:536
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:683
+msgid "Invalid provider."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:722
+msgid "ERROR: Invalid backup code."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:787
+msgid "You have logged in successfully."
+msgstr ""
+
+#: includes/classes/Authenticator/class-login.php:862
+msgid "Authentication Code:"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:142
+msgid "Please enter the two-factor authentication (2FA) verification code below to login. Depending on your 2FA setup, you can get the code from the 2FA app or it was sent to you by email."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:144
+msgid "Enter a backup verification code."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:471
+msgid "Your login confirmation code for {site_name}"
+msgstr ""
+
+#. translators: The login code provided from the plugin.
+#: includes/classes/class-wp2fa.php:475
+msgid "Enter %1$s to log in."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:479
+#: includes/classes/class-wp2fa.php:497
+#: includes/classes/class-wp2fa.php:512
+msgid "Thank you."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:485
+msgid "Your user on {site_name} has been locked"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:487
+msgid "Hello."
+msgstr ""
+
+#. translators: %2s - the name of the site.
+#: includes/classes/class-wp2fa.php:491
+msgid "Since you have not enabled two-factor authentication for the user %1$s on the website %2$s within the grace period, your account has been locked."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:496
+msgid "Contact your website administrator to unlock your account."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:503
+msgid "Your user on {site_name} has been unlocked"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:506
+msgid "Hello,"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:506
+msgid "Your user"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:506
+msgid "on the website"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:506
+msgid "has been unlocked. Please configure two-factor authentication within the grace period, otherwise your account will be locked again."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:509
+msgid "You can configure 2FA from this page:"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:512
+msgid "WP 2FA plugin"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:708
+msgid "Test email from WP 2FA"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:709
+msgid "This email was sent by the WP 2FA plugin to test the email delivery."
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:842
+msgid "To ensure emails are delivered so users do not have problems logging in, we recommend using the free plugin"
+msgstr ""
+
+#: includes/classes/class-wp2fa.php:842
+msgid "WP Mail SMTP"
+msgstr ""
+
+#: includes/classes/Shortcodes/class-shortcodes.php:50
+#: includes/classes/Shortcodes/class-shortcodes.php:98
+#: includes/classes/Shortcodes/class-shortcodes.php:190
+msgid "All done."
+msgstr ""
+
+#: includes/classes/Shortcodes/class-shortcodes.php:51
+#: includes/classes/Shortcodes/class-shortcodes.php:99
+#: includes/classes/Shortcodes/class-shortcodes.php:191
+msgid "Your login just got more secure."
+msgstr ""
+
+#: includes/classes/Shortcodes/class-shortcodes.php:153
+msgid "You must be logged in to view this page."
+msgstr ""
+
+#: includes/classes/Shortcodes/class-shortcodes.php:153
+msgid "Login here."
+msgstr ""
+
+#: includes/classes/Utils/class-date-time-utils.php:38
+msgid "no grace period"
+msgstr ""
+
+#. translators: Grace period expiration label. %s: Date and time formatted using WordPress date and time formats.
+#: includes/classes/Utils/class-date-time-utils.php:63
+msgid "before %s"
+msgstr ""
+
+#: includes/classes/Utils/class-debugging.php:57
+msgid "Current memory usage: "
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:354
+msgid "Configured"
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:355
+msgid "Required but not configured"
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:356
+msgid "Configured (but not required)"
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:357
+msgid "Not required & not configured"
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:359
+msgid "Locked"
+msgstr ""
+
+#: includes/classes/Utils/class-user-utils.php:360
+msgid "User has not logged in yet, 2FA status is unknown"
+msgstr ""
+
+#: includes/functions/core.php:252
+msgid "Congratulations"
+msgstr ""
+
+#: includes/functions/core.php:253
+msgid "Your account just got more secure"
+msgstr ""
+
+#: includes/functions/core.php:254
+msgid "Close Wizard & Refresh"
+msgstr ""
+
+#: includes/functions/core.php:255
+msgid "Processing Update"
+msgstr ""
+
+#: includes/functions/core.php:256
+msgid "Email successfully sent"
+msgstr ""
+
+#: includes/functions/core.php:257
+msgid "Email delivery failed"
+msgstr ""
+
+#: includes/functions/core.php:259
+msgid "Validating your license, please wait..."
+msgstr ""
